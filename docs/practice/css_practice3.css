@@ -1,0 +1,13 @@
+#back{
+    height: 100dvh;
+    width: 100dvw;
+    background-color: hsl(0, 0%, 94%);
+}
+#content{
+    height: 150px;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+}
+#line{
+    color: hsl(0, 1%, 44%);
+}
