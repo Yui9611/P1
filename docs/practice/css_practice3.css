@@ -1,5 +1,6 @@
 p{
     font-family: sans-serif;
+    font-weight: 700;
 }
 #back{
     height: 100dvh;
@@ -13,8 +14,8 @@ p{
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    border-radius: 16px 16px 32px 16px;
-    padding: 32px;
+    border-radius: 16px 16px 128px 16px;
+    padding: 48px;
 }
 #INPUT{
     color: hsl(0, 0%, 8%);
@@ -33,9 +34,9 @@ p{
 .inputbox{
     font-size: 24px;
     font-weight: 700;
-    color: hsl(0, 1%, 44%);
+    color: hsl(0, 0%, 8%);
     padding: 12px;
-    width: 160px;
+    width: 98px;
     border-color: hsl(0, 0%, 86%);
     border-style: solid;
     border-width: 1px;
@@ -43,15 +44,19 @@ p{
     margin-right: 12px;
 }
 .inputbox:focus{
-    color: hsl(0, 0%, 8%);
     border-color: hsl(259, 100%, 65%);
 }
+::-webkit-input-placeholder {
+    color: hsl(0, 1%, 44%);
+}    
+
 #middle{
     display: flex;
     flex-direction: row;
 }
 #line{
-    color: hsl(0, 0%, 86%);
+    width: 480px;
+    color: hsl(0, 0%, 94%);
     margin-top: 32px;
     border-style: solid;
     float: left;
@@ -60,20 +65,18 @@ p{
     border-style: none;
     border-radius: 50px;
     background-color: hsl(259, 100%, 65%);
-    padding: 16px;
-    
+    padding: 14px;
     justify-content: end;
 }
 #purplebutton:hover{
     background-color: hsl(0, 0%, 8%);
 }
-#OUTPUT{
-    line-height: 16px;
-}
+
 .black{
-    font-weight: 800;
+    font-weight: 900;
     font-size: 64px;
     font-style: oblique;
+    margin: 0px;
 }
 .purple{
     color: hsl(259, 100%, 65%);
