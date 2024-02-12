@@ -24,11 +24,13 @@
 }
 .unit{
     color: hsl(0, 1%, 44%);
-    font-size: 16px;
+    font-size: 12px;
 }
 .inputbox{
     font-size: 24px;
+    font-weight: 700;
     color: hsl(0, 1%, 44%);
+    padding: 12px;
 }
 #line{
     color: hsl(0, 0%, 86%);
