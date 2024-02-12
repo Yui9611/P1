@@ -39,8 +39,8 @@
     border-radius: 8px;
     margin-right: 12px;
 }
-.inputbox:focus{
-    color: hsl(259, 100%, 65%);
+#DAY:focus{
+    color: hsl(0, 0%, 8%);
     border-color: hsl(259, 100%, 65%);
 
 }
