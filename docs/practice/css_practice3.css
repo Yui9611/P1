@@ -41,10 +41,15 @@
 #line{
     color: hsl(0, 0%, 86%);
     padding-top: 32px;
+    display: flex;
+    flex-direction: row;
 }
 #purple{
     border-style: none;
     border-radius: 50px;
     background-color: hsl(259, 100%, 65%);
-    padding: 8px;
+    padding: 16px;
+}
+#purple:hover{
+    background-color: hsl(0, 0%, 8%);
 }
