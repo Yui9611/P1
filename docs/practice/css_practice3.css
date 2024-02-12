@@ -11,7 +11,7 @@
     width: 300px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 #INPUT{
     color: hsl(0, 0%, 8%);
