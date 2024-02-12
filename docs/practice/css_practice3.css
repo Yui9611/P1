@@ -46,4 +46,5 @@
     border-style: none;
     border-radius: 50px;
     background-color: hsl(259, 100%, 65%);
+    padding: 8px;
 }
