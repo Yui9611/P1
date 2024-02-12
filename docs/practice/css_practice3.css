@@ -64,7 +64,13 @@
 #purplebutton:hover{
     background-color: hsl(0, 0%, 8%);
 }
+#OUTPUT{
+    line-height: 16px;
+}
 .black{
     font-weight: 800i;
     font-size: 64px;
+}
+.purple{
+    color: hsl(259, 100%, 65%);
 }
