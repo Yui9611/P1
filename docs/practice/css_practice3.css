@@ -20,7 +20,17 @@
 .str{
     display: flex;
     flex-direction: column;
+    
+}
+.unit{
+    color: hsl(0, 1%, 44%);
+    font-size: 8px;
+}
+.inputbox{
+    font-size: 32px;
+    color: hsl(0, 1%, 44%);
 }
 #line{
-    color: hsl(0, 1%, 44%);
+    color: hsl(0, 0%, 86%);
+    padding-top: 32px;
 }
