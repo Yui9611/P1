@@ -45,6 +45,7 @@
 }
 #middle{
     display: flex;
+    flex-direction: row;
 }
 #line{
     color: hsl(0, 0%, 86%);
