@@ -40,7 +40,7 @@
     margin-right: 12px;
 }
 #line{
-    color: hsl(0, 0%, 86%);
+    border-color: hsl(0, 0%, 86%);
     margin-top: 32px;
 }
 #purple{
