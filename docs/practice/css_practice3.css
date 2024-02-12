@@ -42,7 +42,8 @@
 #line{
     color: hsl(0, 0%, 86%);
     padding-top: 32px;
-
+    display: flex;
+    /* flex-direction: row; */
 }
 #purple{
     border-style: none;
