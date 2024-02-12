@@ -42,3 +42,8 @@
     color: hsl(0, 0%, 86%);
     padding-top: 32px;
 }
+#purple{
+    border-style: none;
+    border-radius: 50px;
+    background-color: hsl(259, 100%, 65%);
+}
