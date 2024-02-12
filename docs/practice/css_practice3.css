@@ -50,7 +50,7 @@
     border-radius: 50px;
     background-color: hsl(259, 100%, 65%);
     padding: 16px;
-    
+    justify-content: end;
 }
 #purple:hover{
     background-color: hsl(0, 0%, 8%);
