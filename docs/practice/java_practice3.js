@@ -1,4 +1,4 @@
-function purplebutton{
+function purplebutton(){
     var inputDay = parseInt(document.getElementById('day').value);
     var inputMonth = parseInt(document.getElementById('month').value) - 1;
     var inputYear = parseInt(document.getElementById('year').value);
