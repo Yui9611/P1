@@ -10,13 +10,13 @@ function purplebutton{
     var months = today.getMonth() - birthDate.getMonth();
     var days = today.getDate() - birthDate.getDate();
     if (days < 0) {
-        months--; // 月份减1
-        days += new Date(today.getFullYear(), today.getMonth(), 0).getDate(); // 借位后，将days加上该月总天数
+        months--;
+        days += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
     }
 
     if (months < 0) {
-        years--; // 年份减1
-        months += 12; // 借位后，将months加上12
+        years--;
+        months += 12;
     }
 
     document.getElementById('yearsdisplay').innerText = years;
