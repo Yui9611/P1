@@ -42,7 +42,6 @@
 .inputbox:focus{
     color: hsl(0, 0%, 8%);
     border-color: hsl(259, 100%, 65%);
-
 }
 #middle{
     display: flex;
@@ -51,7 +50,6 @@
     color: hsl(0, 0%, 86%);
     margin-top: 32px;
     border-style: solid;
-    float: left;
 }
 #purple{
     border-style: none;
