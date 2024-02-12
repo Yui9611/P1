@@ -1,3 +1,6 @@
+p{
+    font-family: sans-serif;
+}
 #back{
     height: 100dvh;
     width: 100dvw;
@@ -68,8 +71,9 @@
     line-height: 16px;
 }
 .black{
-    font-weight: 800i;
+    font-weight: 800;
     font-size: 64px;
+    font-style: oblique;
 }
 .purple{
     color: hsl(259, 100%, 65%);
