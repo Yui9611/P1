@@ -42,7 +42,7 @@
 #line{
     color: hsl(0, 0%, 86%);
     margin-top: 32px;
-    border-style: none;
+    border-style: solid;
 }
 #purple{
     border-style: none;
